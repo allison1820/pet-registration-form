@@ -106,9 +106,10 @@
       Rabies (1 year or 3 year is acceptable)
     </label>
     <!-- TODO: Add a check in the script.js to make sure that if a user does not select all of the vaccinations above, they must provide an explanation in the text area below. -->
-    <small id="vaccs" class="form-text text-muted">Required. Pets should be vaccinated with all of the above. If not, please specify why in the textbox below.      
-    </small>
-
+    <small class="form-text text-muted"> Required. Pets should be vaccinated with all of the above. If not, please specify why in the textbox below. 
+      </small>
+    <label id="vaccs-info" style="color: red"></label>     
+    <textarea class="form-control" id="vaccination-text-area" rows="3"></textarea>
     <legend for="other-information">Other information</legend>
     <label>Please specify any medication or any conditions of the pet that we should be aware of</label>
     <textarea class="form-control" id="other-info-text-area" rows="3"></textarea>
